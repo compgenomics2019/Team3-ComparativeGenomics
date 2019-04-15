@@ -29,9 +29,9 @@ conda-env create -f lib/gp_env.yml -n compgene3
 source activate compgene3
 ```
 
-From within the hmmer-2.2 folder in lib, compile binaries for hmmer-2.2 (dependency for rnammer which is part of our pipeline):
+From within the KSNPs folder in lib, compile binaries for KSNPs (dependency for rnammer which is part of our pipeline):
 ```
-cd hmmer-2.2
+cd KSNPs
 ./configure
 make install
 ```
