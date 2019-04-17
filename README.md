@@ -29,11 +29,17 @@ conda-env create -f lib/compgene3.yml -n compgene3
 source activate compgene3
 ```
 
-From within the KSNPs folder in lib, compile binaries for KSNPs (dependency for rnammer which is part of our pipeline):
+Install KSNPs using wget, unzip the KSNP package and set KSNP paths:
 ```
-cd KSNPs
-./configure
-make install
+wget https://sourceforge.net/projects/ksnp/files/kSNP3.1_Linux_package.zip
+unzip kSNP3.1_Linux_package.zip
+vim ~/.bashrc
+export PATH=$PATH:$/current_path/kSNP3.1_Linux_package/kSNP3
+source ~/.bashrc
+vim /current_path/kSNP3.1_Linux_package/kSNP3
+set kSNP=/usr/local/kSNP3
+set kSNP=/home/lhl/tools/kSNP3.1_Linux_package/kSNP3
+export PATH=/current_path/kSNP3.1_Linux_package/kSNP3:$PATH
 ```
 
 Export path to 'lib' to path variable (lib contains precompiled binaries for Chewbbaca, lyve-SET, blast,  which are part of the pipeline)
