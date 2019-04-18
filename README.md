@@ -25,8 +25,8 @@ Create and activate a conda environment using the yml file provided in our lib f
 
 ```
 #Create environment after downloading yml file
-conda-env create -f lib/compgenef2.yml -n compgenef2
-source activate compgenef2
+conda-env create -f installs/compgeneff3.yml -n compgeneff3
+source activate compgeneff3
 ```
 
 Install KSNPs using wget, unzip the KSNP package and set KSNP paths:
