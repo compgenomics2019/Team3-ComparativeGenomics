@@ -52,7 +52,7 @@ export PATH=$PATH:<path to installs>
 To run our pipeline with sample data provided in our repository (check sample_input folder)
 
 ```
-./gp_pipeline.sh -i sample_input -o sample_output
+python pipeline.py -m 10 -d genome_aseemblies/ -M
 ```
 
 For each input genome, the list of generated outputs is as follows:
