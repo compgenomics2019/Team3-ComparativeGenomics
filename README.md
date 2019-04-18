@@ -25,7 +25,7 @@ Create and activate a conda environment using the yml file provided in our lib f
 
 ```
 #Create environment after downloading yml file
-conda-env create -f installs/compgeneff3.yml -n compgeneff3
+conda-env create -f lib/compgeneff3.yml -n compgeneff3
 source activate compgeneff3
 ```
 
@@ -42,9 +42,9 @@ set kSNP=/home/lhl/tools/kSNP3.1_Linux_package/kSNP3
 export PATH=/current_path/kSNP3.1_Linux_package/kSNP3:$PATH
 ```
 
-Export path to 'installs' to path variable (installs contains precompiled binaries for pandas, KSNP, Chewbbaca, lyve-SET, blast,  which are part of the pipeline)
+Export path to 'lib' to path variable (installs contains precompiled binaries for pandas, KSNP, Chewbbaca, lyve-SET, blast,  which are part of the pipeline)
 ```
-export PATH=$PATH:<path to installs>
+export PATH=$PATH:<path to lib>
 ```
 
 ## Running the pipeline
