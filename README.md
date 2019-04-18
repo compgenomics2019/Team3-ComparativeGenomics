@@ -25,7 +25,7 @@ Create and activate a conda environment using the yml file provided in our lib f
 
 ```
 #Create environment after downloading yml file
-conda-env create -f lib/compgeneff3.yml -n compgeneff3
+conda-env create -f compgeneff3.yml -n compgeneff3
 source activate compgeneff3
 ```
 
