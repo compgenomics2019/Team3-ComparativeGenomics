@@ -56,7 +56,4 @@ python pipeline.py -m 10 -d genome_aseemblies/ -M
 ```
 
 For each input genome, the list of generated outputs is as follows:
-1. gff file containing the coordinates for the coding sequences
-2. fna file for coding nucleotide sequences
-3. faa file for coded protein sequences
-3. fna file for RNA predictions
+1. fasta file of assembled genomes. 
