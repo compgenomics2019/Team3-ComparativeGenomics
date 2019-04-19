@@ -42,7 +42,7 @@ set kSNP=/home/lhl/tools/kSNP3.1_Linux_package/kSNP3
 export PATH=/current_path/kSNP3.1_Linux_package/kSNP3:$PATH
 ```
 
-Export path to 'lib' to path variable (installs contains precompiled binaries for pandas, KSNP, Chewbbaca, lyve-SET, blast,  which are part of the pipeline)
+Export path to 'lib' to path variable (installs contains precompiled binaries for pandas, KSNP, Chewbbaca, blast,  which are part of the pipeline)
 ```
 export PATH=$PATH:<path to lib>
 ```
